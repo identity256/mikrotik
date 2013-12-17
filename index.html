@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tutorial Mikrotik</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/themes/default/jquery.mobile-1.3.2.min.css">
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.mobile-1.3.2.min.js"></script>
+</head>
+<body>
+
+<!-- Start of home page -->
+<div data-role="page" id="home" data-theme="d">
+
+	<div data-role="header" data-theme="d" >
+		<h1>Tutorial Mikrotik</h1>
+	</div><!-- /header -->
+
+	<div data-role="content"  data-theme="d">
+		<p>Selamat datang di media pembelajaran singkat tentang mikrotik. Setelah mempelajari ini diharapkan anda akan :</p>
+		<ul data-role="listview" data-theme="d">
+				<li>Mengetahui sekilas tentang Mikrotik</li>
+				<li>Mengetahui sekilas tentang jenis Mikrotik</li>
+				<li>Mengetahui sekilas tentang Winbox</li>
+		</ul>
+		<p>Untuk mempelajari materi ini anda bisa menggunkan router mikrotik yang diakses dengan Winbox melalui laptop atau komputer anda.</p>
+		</div><!-- /content -->
+
+	<div data-role="footer" data-theme="d" data-position="fixed">
+		<div data-role="navbar">
+		<ul>
+			<li><a href="#home" data-role="button" data-icon="home" data-theme="d" data-inline="true">Home</a></li>
+			<li><a href="#menu" data-role="button" data-icon="plus" data-theme="d" data-inline="true">Menu</a></li>
+			<li><a href="#contact" data-rel="dialog" data-role="button" data-icon="grid" data-theme="d" data-inline="true" data-transitions="flow">Contact</a></li>
+		</ul>	
+		</div><!-- /navbar -->	
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+
+<!-- Start of menu page -->
+<div data-role="page" id="menu" data-theme="d">
+
+	<div data-role="header" data-theme="d">
+		<h1>Menu</h1>
+	<a href="#home" data-role="button" data-icon="back" data-theme="d" data-inline="true">Back</a>	
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="d">
+		<ul data-role="listview" data-theme="d">
+				<li><a href="#materi1">Pengenalan Mikrotik</a></li>
+				<li><a href="#materi2">Jenis Mikrotik</a></li>
+				<li><a href="#materi3">Winbox</a></li>
+				<li><a href="#video">Video Konfigurasi Dasar Mikrotik Router</a></li>
+		</ul>
+	</div><!-- /content -->
+
+	<div data-role="footer" data-theme="d" data-position="fixed">
+		<div data-role="navbar">
+		<ul>
+			<li><a href="#home" data-role="button" data-icon="home" data-theme="d" data-inline="true">Home</a></li>
+			<li><a href="#menu" data-role="button" data-icon="plus" data-theme="d" data-inline="true">Menu</a></li>
+			<li><a href="#contact" data-rel="dialog" data-role="button" data-icon="grid" data-theme="d" data-inline="true" data-transitions="flow">Contact</a></li>
+		</ul>	
+		</div><!-- /navbar -->	
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+
+<div data-role= "dialog" id="contact" data-theme="d">
+    <div data-role="header" data-theme="d">
+			<h1>Contact</h1>
+		</div>
+
+		<div data-role="content">
+			<p>Copyright Febriansyah Wahyudi - febriansyah_ex@yahoo.com</p>
+			<a href="#home" data-role="button" data-rel="back" data-theme="c">Back</a>    
+		</div>
+	</div>
+</div>
+
+
+<!-- Start of materi 1 page -->
+<div data-role="page" id="materi1" data-theme="d">
+
+	<div data-role="header" data-theme="d">
+		<h1>Pengenalan Mikrotik</h1>
+		<a href="#menu" data-role="button" data-icon="back" data-theme="d" data-inline="true">Back</a>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="d">
+		<p>
+		Mikrotik berasal dari kata mikrotikls yang berarti "network kecil" dalam bahasa Latvia. 
+		Mikrotik dengan trademark Mikrotik, Router OS dan Router Board merupakan perusahaan kecil berlokasi di Riga, ibukota Latvia bersebelahan dengan Rusia dan memiliki lebih dari 70 juta karyawan, pembentukannya diprakarsai oleh John Trully dan Arnis Riekstins. 
+		Mikrotik mempunyai motto "Routing The World" didirikan pada tahun 1995 untuk mengembangkan Router dan sistem ISP dengan wireless. 
+		Sekitar tahun 1997 Mikrotik membuat sistem RouterOS perangkat lunak yang menyediakan stabilitas yang luas, kontrol dan fleksibilitas untuk semua jenis interface data dan routing. 
+		Pada tahun 2002 Mikrotik memutuskan untuk membuat perangkat keras sendiri yang mempunyai kemampuan handal bagi mesin Router dan merek RouterBOARD akhirnya lahir. 
+
+		</p>
+	</div><!-- /content -->
+
+	<div data-role="footer" data-theme="d" data-position="fixed">
+		<div data-role="navbar">
+		<ul>
+			<li><a href="#home" data-role="button" data-icon="home" data-theme="d" data-inline="true">Home</a></li>
+			<li><a href="#menu" data-role="button" data-icon="plus" data-theme="d" data-inline="true">Menu</a></li>
+			<li><a href="#contact" data-rel="dialog" data-role="button" data-icon="grid" data-theme="d" data-inline="true" data-transitions="flow">Contact</a></li>
+		</ul>	
+		</div><!-- /navbar -->	
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+
+<!-- Start of materi 2 page -->
+<div data-role="page" id="materi2" data-theme="d">
+
+	<div data-role="header" data-theme="d">
+		<h1>Jenis Mikrotik</h1>
+		<a href="#menu" data-role="button" data-icon="back" data-theme="d" data-inline="true">Back</a>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="d">
+	<ul data-role="listview" data-inset="true">
+		<li data-role="list-divider">Mikrotik RouterOS</li>
+		<li>
+			<p>Mikrotik RouterOS merupakan software router untuk PC. </p>
+			<p>RouterOS ini berupa sistem operasi berbasis Linux yang kita install pada komputer ( Personal Computer )</p> 
+			<p>yang mampu menjadikan sebuah PC bahkan dengan spesifikasi yang rendah menjadi sebuah router  yang handal dengan fitur yang lengkap.</p>
+			
+		</li>
+		
+		<li data-role="list-divider">Mikrotik RouterBOARD</li>
+		<li>
+			<p>RouterBOARD merupakan hardware router  yang didesain oleh MikroTik. </p>
+			<p>RouterBOARD memiliki beragam seri dan interface yang disesuaikan dengan kebutuhan.</p>
+			<p>RouterBOARD menggunakan RouterOS sebagai software / sistem operasinya.</p> 
+			<p>Beberapa contoh Routerboard ini diantaranya adalah RB400, RB600, R52H, R52N, R2N yang merupakan Wireless board dan RB750, RB450G, RB1000 yang merupakan Embeded ( sistem minimum ) router.</p> 
+			<p>RouterBOARD  memiliki sistem pengkodean tertentu, misalnya untuk RouterBOARD RB433.</p> 
+		</li>
+	</ul>
+	</div><!-- /content -->
+
+	<div data-role="footer" data-theme="d" data-position="fixed">
+		<div data-role="navbar">
+		<ul>
+			<li><a href="#home" data-role="button" data-icon="home" data-theme="d" data-inline="true">Home</a></li>
+			<li><a href="#menu" data-role="button" data-icon="plus" data-theme="d" data-inline="true">Menu</a></li>
+			<li><a href="#contact" data-rel="dialog" data-role="button" data-icon="grid" data-theme="d" data-inline="true" data-transitions="flow">Contact</a></li>
+		</ul>	
+		</div><!-- /navbar -->	
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+
+<!-- Start of materi 3 page -->
+<div data-role="page" id="materi3" data-theme="d">
+
+	<div data-role="header" data-theme="d">
+		<h1>Winbox</h1>
+		<a href="#menu" data-role="button" data-icon="back" data-theme="d" data-inline="true">Back</a>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="d">
+		<p>
+		Winbox adalah sebuah utility yang digunakan untuk melakukan remote ke router mikrotik kita dalam mode GUI. 
+		Jika untuk mengkonfigurasi mikrotik dalam text mode melalui PC itu sendiri, maka untuk mode GUI yang menggunakan winbox ini kita mengkonfigurasi mikrotik melalui komputer client. 
+		Mengkonfigurasi mikrotik melaui winbox ini lebih banyak digunakan karena selain penggunaannya yang mudah kita juga tidak harus menghapal perintah-perintah console. 
+		Fungsi utama winbox adalah untuk setting yang ada pada mikrotik,  berarti tugas utama winbox adalah untuk mengatur mikrotik dengan GUI, atau tampilan desktop.
+
+		</p>
+	</div><!-- /content -->
+
+	<div data-role="footer" data-theme="d" data-position="fixed">
+		<div data-role="navbar">
+		<ul>
+			<li><a href="#home" data-role="button" data-icon="home" data-theme="d" data-inline="true">Home</a></li>
+			<li><a href="#menu" data-role="button" data-icon="plus" data-theme="d" data-inline="true">Menu</a></li>
+			<li><a href="#contact" data-rel="dialog" data-role="button" data-icon="grid" data-theme="d" data-inline="true" data-transitions="flow">Contact</a></li>
+		</ul>	
+		</div><!-- /navbar -->	
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+
+<!-- Start of materi 3 page -->
+<div data-role="page" id="video" data-theme="d">
+
+	<div data-role="header" data-theme="d">
+		<h1>Video Konfigurasi Dasar Mikrotik Router</h1>
+		<a href="#menu" data-role="button" data-icon="back" data-theme="d" data-inline="true">Back</a>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="d">
+		<iframe width="560" height="315" src="//www.youtube.com/embed/KuHtSpSB3-Q" frameborder="0" allowfullscreen></iframe>
+	</div><!-- /content -->
+
+	<div data-role="footer" data-theme="d" data-position="fixed">
+		<div data-role="navbar">
+		<ul>
+			<li><a href="#home" data-role="button" data-icon="home" data-theme="d" data-inline="true">Home</a></li>
+			<li><a href="#menu" data-role="button" data-icon="plus" data-theme="d" data-inline="true">Menu</a></li>
+			<li><a href="#contact" data-rel="dialog" data-role="button" data-icon="grid" data-theme="d" data-inline="true" data-transitions="flow">Contact</a></li>
+		</ul>	
+		</div><!-- /navbar -->	
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+</body>
+</html>
